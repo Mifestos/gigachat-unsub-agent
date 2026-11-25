@@ -1,0 +1,27 @@
+# Окружение и секреты 
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Реальные банковские выписки и сырые данные
+data/raw/
+data/real_*
+*.csv
+*.pdf
+!data/sample_alfa_statement.csv
+
+# Артефакты MLflow и модели
+mlruns/
+mlartifacts/
+*.cbm
+*.onnx
+*.parquet
+
+# Системные файлы и IDE
+.vscode/
+.idea/
+.DS_Store
