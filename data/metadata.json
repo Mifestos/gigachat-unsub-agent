@@ -1,0 +1,21 @@
+{
+  "n_users": 300,
+  "seed": 42,
+  "p_yearly": 0.03,
+  "min_yearly": 1,
+  "date_start": "2024-06-01",
+  "date_end": "2026-11-20",
+  "n_transactions": 165000,
+  "n_transactions_regular": 86474,
+  "n_transactions_sbp": 29028,
+  "n_transactions_subscriptions": 49498,
+  "subscription_ratio_tx": 0.299988,
+  "n_unique_merchants": 5981,
+  "n_subscription_clusters": 1375,
+  "n_yearly_subscriptions": 8,
+  "n_yearly_planned": 8,
+  "yearly_share_of_sub_clusters": 0.5818,
+  "n_service_merchants_pool": 1040,
+  "n_retail_merchants_pool": 8749,
+  "mcc_catalog_size": 1088
+}
