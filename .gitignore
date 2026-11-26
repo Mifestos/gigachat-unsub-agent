@@ -20,6 +20,7 @@ mlartifacts/
 *.cbm
 *.onnx
 *.parquet
+mlflow.db
 
 # Системные файлы и IDE
 .vscode/

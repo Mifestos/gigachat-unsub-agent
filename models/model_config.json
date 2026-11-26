@@ -1,0 +1,58 @@
+{
+  "model_file": "subscription_catboost.cbm",
+  "threshold": 0.85,
+  "feature_columns": [
+    "tx_count",
+    "mean_delta_days",
+    "median_delta_days",
+    "std_delta_days",
+    "min_delta_days",
+    "max_delta_days",
+    "periodicity_error",
+    "mean_amount",
+    "std_amount",
+    "amount_cv",
+    "amount_to_user_median",
+    "std_hour_of_day",
+    "is_sbp",
+    "mcc_code"
+  ],
+  "cat_features": [
+    "mcc_code"
+  ],
+  "holdout_metrics": {
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "f1": 0.99819,
+    "precision": 1.0,
+    "recall": 0.99639,
+    "threshold": 0.85
+  },
+  "baseline_comparison": {
+    "model_name": "LightAutoML_Tabular_Baseline",
+    "metrics": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "threshold": 0.3015
+    }
+  },
+  "feature_importances": {
+    "is_sbp": 44.857,
+    "std_delta_days": 28.876,
+    "std_amount": 4.974,
+    "amount_cv": 4.728,
+    "periodicity_error": 3.444,
+    "tx_count": 2.577,
+    "min_delta_days": 2.476,
+    "mean_delta_days": 2.225,
+    "max_delta_days": 1.797,
+    "std_hour_of_day": 1.16,
+    "median_delta_days": 1.008,
+    "mean_amount": 0.964,
+    "amount_to_user_median": 0.914,
+    "mcc_code": 0.0
+  }
+}
